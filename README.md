@@ -1,5 +1,7 @@
 # Frontend Mentor - Social proof section solution
 
+![Screenshot Social Proof Section](https://github.com/AlexAyiecho/social-proof-section-master/assets/140613985/fd984abb-6a1d-49bc-b21c-df01592c881e)
+
 This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents

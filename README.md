@@ -2,40 +2,13 @@
 
 ![Screenshot Social Proof Section](https://github.com/AlexAyiecho/social-proof-section-master/assets/140613985/fd984abb-6a1d-49bc-b21c-df01592c881e)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
+<<<<<<< HEAD
+=======
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -53,9 +26,13 @@ Users should be able to:
 
 - View the optimal layout for the section depending on their device's screen size
 
+### Screenshot
+
+social-proof-section-master\Screenshot Social Proof Section.png
+
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-layout-using-css-grid-and-flexbox-rCzmvhcvAc)
+- Solution URL: (https://your-solution-url.com)
 - Live Site URL: (https://alexayiecho.github.io/social-proof-section-master/)
 
 ## My process
@@ -148,3 +125,4 @@ header {
 
 I'd like to thank AuddityCodes (https://www.youtube.com/watch?v=fcVglSYTymM). Through the youtube channel I gained some insight and was able to solve the background image issue I was having.
 I'd also like to than SuperSimple Dev (https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1s), where I learnt CSS positioning, and Traversy Media (https://www.youtube.com/watch?v=0xMQfnTU6oo), where I learnt CSS grid.
+>>>>>>> parent of 2a4206d (Final Update README.md)

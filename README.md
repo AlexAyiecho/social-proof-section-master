@@ -31,7 +31,7 @@ social-proof-section-master\Screenshot Social Proof Section.png
 ### Links
 
 - Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://alexayiecho.github.io/social-proof-section-master/)
 
 ## My process
 

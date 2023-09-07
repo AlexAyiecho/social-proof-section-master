@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: League Spartan;
+  src: url("font/LeagueSpartan.ttf");
+}
+
+
+body{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: hsl(0, 0%, 100%);
+  padding: 70px 100px;
+  margin-top: 50px;
+  background: url(images/bg-pattern-top-desktop.svg) no-repeat top  left, 
+                    url(images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
+                
+
+}
+
+
+                      /*MAIN SECTION*/
+
+/*header*/
+header{
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 350px;   /*column gap is too big but it pushes the ratings so that 
+                          they align vertically with the 3rd review (Alice)*/
+  
+}
+
+.main_section{
+  width: 350px;
+}
+
+h1{
+  color: hsl(300, 43%, 22%);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.0;
+  margin-bottom: 10px;
+  
+}
+
+.main_section p{
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  
+}
+
+
+/*star ratings*/
+.ratings{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  max-width: 500px;
+  
+}
+
+.star-rating{
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;    
+}
+
+
+/*rating positioning*/
+.rating-comment{
+  margin-left: 40px;
+}
+
+.star-rating:nth-child(1){
+  right: 100px;
+}
+
+.star-rating:nth-child(2){
+  right: 50px;
+}
+
+
+                    /*REVIEWS SECTION*/
+
+/*reviews*/
+.reviews{
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  max-width: 1440px;
+  
+}
+
+.review{
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  padding: 30px 30px;
+  margin-bottom: 50px;
+  position: relative;
+
+}
+  
+.header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.buyer-image{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.name-buyer{
+  margin-left: 20px;
+  line-height: 1.2;
+}
+
+.name-buyer p{
+  color: hsl(333, 80%, 67%);
+  
+}
+
+
+/*reviews positioning*/
+.review:nth-child(2){
+  top: 15px;
+}
+
+.review:nth-child(3){
+  top: 30px;
+}
+
+
+                    /*MEDIA QUERIES*/
+
+/*media query 1070px*/
+@media(max-width:1070px){
+  header{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+  }
+
+  .main_section{
+    width: 100%;
+    margin: 0px auto 20px auto;
+  }  
+  
+  .ratings{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .star-rating:nth-child(1){
+    right: 22px;
+  }
+  
+  .star-rating:nth-child(2){
+    right: 22px;
+  }
+
+  .star-rating:nth-child(3){
+    right: 22px;
+  }
+
+  .review:nth-child(2){
+    top: 0px;
+  }
+  
+  .review:nth-child(3){
+    top: 0px;
+  }
+
+}
+
+
+/*media query 800px*/
+@media(max-width:800px){
+  header{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+    
+  }
+
+  .main_section{
+
+    display: block;
+    width: 100%;
+    margin: 0px auto 20px auto;
+
+  }
+
+  .star-rating{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+
+.star-rating:nth-child(1){
+  right: 0px;
+}
+
+.star-rating:nth-child(2){
+  right: 0px;
+}
+
+.star-rating:nth-child(3){
+  right: 0px;
+}
+
+.rating-comment{
+  margin-left:35px;
+  margin-right: 35px;
+}
+
+
+.reviews{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+  
+}
+
+}
+
+
+/*media query 375px*/
+@media(max-width:375px){
+  body{
+    
+    background: url(images/bg-pattern-top-mobile.svg) no-repeat top  left, 
+                url(images/bg-pattern-bottom-mobile.svg) no-repeat bottom right;
+  }
+}
+
+
+              /*FOOTER*/
+footer{ text-align: center;}
+
+
+
+
+                                      /*NOTES*/
+/*I was having a difficult time trying to align the H1, as can be seen with the placement of the
+word 'products' */
+
+/*I ended up using display flex for max-width 800px for the header, .star-rating and reviews*/
+

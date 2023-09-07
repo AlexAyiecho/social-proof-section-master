@@ -30,7 +30,7 @@ social-proof-section-master\Screenshot Social Proof Section.png
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-layout-using-css-grid-and-flexbox-rCzmvhcvAc)
 - Live Site URL: (https://alexayiecho.github.io/social-proof-section-master/)
 
 ## My process
